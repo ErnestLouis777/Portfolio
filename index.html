@@ -1,0 +1,686 @@
+<!--
+Author: Ernest Louis
+Author URL: https://github.com/ErnestLouis777/Portfolio
+Note : It has been developed on top of W3layout template - http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Ernest Louis| Home :: Portfolio</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Custom Theme files -->
+  <link href="css/style.css" rel='stylesheet' type='text/css' />
+  <!-- Custom Theme files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Ernest Louis Resume Portfolio Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template" />
+  <!-- Favicons ************************-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  
+  
+  <!-- End -->
+  <!-- webfonts -->
+  <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <!-- webfonts -->
+  <!---- start-smoth-scrolling---->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+  <!---- start-smoth-scrolling---->
+</head>
+
+<body>
+  <!-- container -->
+  <!-- header -->
+  <div id="home" class="header">
+    <div class="container">
+      <!-- top-hedader -->
+      <div class="top-header">
+        <!-- /logo -->
+        <!--top-nav---->
+        <div class="top-nav">
+          <div class="navigation">
+            
+            <div class="navigation-right">
+              <span class="menu"><img src="images/menu.png" alt=" " /></span>
+              <nav class="link-effect-3" id="link-effect-3">
+                <ul class="nav1 nav nav-wil">
+                  <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                  <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                  <li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
+                  <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+                  <li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
+                  <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <!-- script-for-menu -->
+              <script>
+                $("span.menu").click(function () {
+                  $("ul.nav1").slideToggle(300, function () {
+                    // Animation complete.
+                  });
+                });
+              </script>
+              <!-- /script-for-menu -->
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <!-- /top-hedader ****************************-->
+        </div>
+        <div class="banner-info">
+          <div class="col-md-7 header-right">
+            <h1>Ernest Louis</h1>
+            <h6>Software Engineer</h6>
+            <div class="hero__links">
+              
+              <ul class="hero__social">
+                <li>
+                  <a href="https://github.com/ErnestLouis777/Portfolio/" rel="noopener" target="_blank" title="Github">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/ErnestLouis0101/" rel="noopener" title='LinkedIn' target="_blank">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/ErnestLouis0101" rel="noopener" target="_blank" title="Twitter">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://stackoverflow.com/users/13356274/ernestlouis0101?tab=profile" rel="noopener" target="_blank" title="Stack-Overflow">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1417 1632h-1118v-480h-160v640h1438v-640h-160v480zm-942-524l33-157 783 165-33 156zm103-374l67-146 725 339-67 145zm201-356l102-123 614 513-102 123zm397-378l477 641-128 96-477-641zm-718 1471v-159h800v159h-800z"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="address">
+
+              <li>
+                <ul class="address-text">
+                  <li><b>NAME</b></li>
+                  <li>Ernest Louis</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>D.O.B</b></li>
+                  <li>06/29/1989</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>MOBILE </b></li>
+                  <li>+1 954-513-5208</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>ADDRESS </b></li>
+                  <li>Orlando, Florida</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li><a href="mailto:ernestlouis0101@gmail.com"> ernestlouis0101@gmail.com</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>WEBSITE </b></li>
+                  <li><a href="https://github.com/ErnestLouis777/Portfolio">Ernest Louis</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-md-5 header-left">
+            <img src="images/profile.jpg" alt="">
+          </div>
+          <div class="clearfix"> </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about *****************************-->
+  <div id="about" class="about">
+    <div class="col-md-6 about-left">
+      <div id="owl-demo1" class="owl-carousel owl-carousel2">
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Work Experience</h2>
+            <p> As a software Engineer I have been working on developing websites for clients as I was completing my education. 
+              I am currently working on a project for a client called "Ventist Market" which will work as a contracting reference 
+              site for persons with indemand skills or trades. I will also be developing a site for an Event Planner and well as 
+              an overseas missionary group. </p>
+              <p>I thoroughly enjoy developing website and software to meet the needs of persons and hope to continue to improve my 
+                skills with time to be of service to many others.</p>
+              <ul>
+                <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+                <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Education</h2>
+            <p>I have earned my Bachelors degree from Southern New Hampshire University
+              ence from <a href="https://www.snhu.edu/" target="_blank">Southern New Hampshire University </a>,
+               during the period of 2018 - 2020.</p>
+              <p>
+               <p>During that time I also enrolled in courses from <a href="https://www.codecademy.com/learn" target="_blank">Code Academy</a>, 
+                <a href="https://www.udemy.com/" target="_blank">Udemy</a>,
+                <a href="https://www.pluralsight.com/" target="_blank">Pluralsight</a> in order to dive deeper into the current educational aspects of my career.</p>
+                  <ul>
+                    <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+                    <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                  </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Recreations</h2>
+            <p> I enjoy reading and writing and (practice) playing piano, When I’m not committed to stationary activities, I am exercising by either swimming or going for a run, 
+              most importantly I enjoy spending time with friends and family.</p>
+            <p>I am very interested in participating in an Hackathon, as well as contributing to open online projects through sources like Github</p>
+            <ul>
+              <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 about-right">
+
+    </div>
+    <div class="clearfix"> </div>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: false,
+          pagination: true,
+        });
+      });
+    </script>
+    <!-- Feedback -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo3").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: true,
+          pagination: true,
+        });
+      });
+    </script>
+  </div>
+  <!-- /about -->
+  <!-- services -->
+  <div id="services" class="services">
+    <div class="container">
+      <div class="service-head one text-center ">
+        
+        <h3><span>MY SKILLS</span></h3>
+        <span class="border two"></span>
+      </div>
+      <!-- services-grids -->
+      <div class="wthree_about_right_grids w3l-agile">
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-th-large"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Front-end Development</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">HTML <i class="val">90%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">CSS <i class="val">85%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Bootstrap <i class="val">90%</i></span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Javascript <i class="val">85%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Jquery <i class="val">75%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">AngularJs <i class="val">70%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">ReactJs <i class="val">65%</i></span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-leaf"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Server-side Development</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <span class="skill">PHP <i class="val">85%</i></span>
+              </div>
+            </div>
+            
+            
+            <div class="col-md-12 skill-group-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Wordpress <i class="val">70%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <span class="skill">NodeJS <i class="val">75%</i></span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        
+        <div class="col-xs-10 wthree_about_right_grid_right">
+          <h4><span>Back-end Development</span></h4>
+        </div>
+        <div class="clearfix"> </div>
+        <div class="col-md-12 skill-group-div">
+          <!-- Skill Bars -->
+          <div class="progress skill-bar ">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress skill-bar">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <span class="skill">C++ <i class="val">65%</i></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress skill-bar">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <span class="skill">Java <i class="val">65%</i></span>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="progress skill-bar ">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <span class="skill">Python <i class="val">75%</i></span>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+
+
+        <div class="clearfix"></div>
+        <span class="border two"></span>
+        <hr></hr>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-gift"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Databases</h4>
+            <ul class="news">
+              <li>MySql</li>
+              <li>MongoDB</li>
+              <li>Oracle</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-wrench"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Project Tools</h4>
+            <ul class="news">
+              <li>Agile</li>
+              <li>Scrum</li>
+              <li>Git & BitBucket</li>
+              <li>SVN</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-certificate"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Tools & Ids</h4>
+            <ul class="news">
+              <li>NetBeans</li>
+              <li>VSCode</li>
+              <li>Sublime Text</li>
+              <li>Notepad++</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-tint"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Others</h4>
+            <ul class="news">
+              <li>Redis</li>
+              <li>AWS</li>
+              <li>E-Commerce</li>
+              <li>Windows & Linux</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services-grids -->
+  </div>
+  </div>
+  <!-- services -->
+  <!--work-experience-->
+  <div id="work" class="work">
+    <div class="container">
+      <div class="service-head text-center">
+      
+        
+  <!-- top-grids -->
+  <div class="blog" id="blogs">
+    <div class="container">
+      <div class="service-head text-center">
+        
+        <h3> <span>MY Projects</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+
+          
+      
+        </div>
+        <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-img">
+          <a href="#" data-toggle="modal" ></a> <img src="images/pic1.jpg" alt=" " class="img-responsive"></a>
+        </div>
+        <div class="col-md-6 news-text">
+          
+          <h3> <a href="projects/ventist1.zip/" target="_blank">Ventist Market Registry</a></h3>
+          <ul class="news">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+          </ul>
+          <p><strong> Ventist Market Registry</strong> is a single page Registration directory listing basic
+             information of each registered User, a list of Users, and also the option to ad or delete a user 
+             to/from the directory. This is just a part of the overall project. This Web app only requires Name, age, 
+             gender, location and email information from the User.<a href="projects/ventist1.zip" target="_blank">Download Project</a></p> 
+           <p><a href="https://youtu.be/WS8DQZIkwa8" target="_blank"><strong>Code Review</a></strong></p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+
+      
+      </div>
+     
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-img">
+          <a href="#" data-toggle="modal" ></a> <img src="images/pic2.jpg" alt=" " class="img-responsive"></a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="projects/skillz.zip" target="_blank">Skillz</a></h3>
+          <ul class="news">
+            <li>Android</li>
+            <li>Java</li>
+            <li>SQL</li>
+          </ul>
+          <p><strong> Skillz</strong> This Artifact is basically an application similar to the well known “Instagram Application/Linkedin” clone app that includes a sign-in, sign-up, database, as well as some secure coding to protect user info, 
+            who’s main purpose is to display a Users specified skill to a potential employer.
+            <p>This application was created in September of 2019 for my CS360 Mobile Architect & 
+              Programming course.
+              <a href="projects/skillz.zip" target="_blank">Download Project</a></p>
+        </div>
+        <div class="clearfix"></div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+  <!-- top-grids -->
+  
+  <!-- /footer -->
+  <div class="footer" id="contact">
+    <div class="container">
+      <div class="service-head one text-center">
+        
+        <h3><span>Contact Me</span></h3>
+        <span class="border two"></span>
+      </div>
+      <div class="mail_us">
+        <div class="col-md-6 mail_left">
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              <h4>Contact By Email</h4>
+              <ul>
+                <li>Primary: <a href="mailto:ernestlouis0101@gmail.com">ernestlouis0101@gmail.com</a></li>
+      
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <h4>Contact By Mobile</h4>
+              <ul>
+                <li>Cell: 1 954-513-5208</li>
+              
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              <h4>Address:</h4>
+              <ul>
+                <li>Orlando,FL </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 mail_right">
+          <form action="#" method="post">
+            <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
+              required="">
+            <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
+              required="">
+            <input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}"
+              required="">
+            <textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+            <input type="submit" value="Send">
+
+          </form>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="copy_right text-center">
+        <p class="float-left">&copy; 2020 Portfolio of Ernest Louis</p>
+        <p class="float-right">Design on top of <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
+        <ul class="hero__social">
+          <li>
+            <a href="https://github.com/ErnestLouis777/Portfolio/" rel="noopener" target="_blank" title="GitHub">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ErnestLouis0101/" rel="noopener" target="_blank" title='LinkedIn'>
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ErnestLouis0101" rel="noopener" target="_blank" title="Twitter">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/13356274/ernestlouis0101?tab=profile" rel="noopener" target="_blank" title="Stack overflow">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1417 1632h-1118v-480h-160v640h1438v-640h-160v480zm-942-524l33-157 783 165-33 156zm103-374l67-146 725 339-67 145zm201-356l102-123 614 513-102 123zm397-378l477 641-128 96-477-641zm-718 1471v-159h800v159h-800z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- /container -->
+  <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  <!--start-smooth-scrolling-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+      $('.progress .progress-bar').css("width",
+        function () {
+          return $(this).attr("aria-valuenow") + "%";
+        }
+      );
+      $().UItoTop({
+        easingType: 'easeOutQuart'
+      });
+
+    });
+  </script>
+  <!--end-smooth-scrolling-->
+  <!-- //for bootstrap working -->
+  <script src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
